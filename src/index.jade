@@ -1,12 +1,21 @@
-extends jade/base
+extends jade/layouts/header_leftcontent_fixfooter
+
+
+block header_content
+
+    | here is the header
+
+block panel_content
+    ul
+        li home
+        li about
+        li kontakt
+        li news
 
 block content
+    | here is the content
 
-    include jade/header
 
-    .container
-        div.content
-            h1 content
+block footer_content
 
-    include jade/footer
-
+    | footer content goes here

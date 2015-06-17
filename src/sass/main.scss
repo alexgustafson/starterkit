@@ -3,10 +3,12 @@
 @import "../bower_components/breakpoint-sass/stylesheets/breakpoint";
 @import "../bower_components/compass-mixins/lib/compass";
 
-
+@import "settings";
+@import "partials/header";
+@import "layout/leftcontent_fixfooter_header";
 
 body {
-  background-color: white;
+  background-color: #abbbbc;
 }
 
 .container {

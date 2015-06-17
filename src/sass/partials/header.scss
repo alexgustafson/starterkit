@@ -1,0 +1,6 @@
+.header {
+  @include container();
+  background-color: $header-background;
+  border-bottom: 1px solid #1c6d9c
+}
+

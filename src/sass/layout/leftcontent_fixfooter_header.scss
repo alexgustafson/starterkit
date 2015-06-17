@@ -1,0 +1,33 @@
+.header {
+  .header_content {
+    padding: 15px;
+    color: white;
+  }
+}
+
+.main {
+  @include container(920px);
+  padding-top: 45px;
+}
+
+.panel {
+  @include span(1 of 1);
+  @include breakpoint(500px)
+  {
+    @include span(1 of 4);
+  }
+
+}
+
+.footer {
+  width: 100%;
+  background-color: #2b81af;
+}
+
+.fixedfooter {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  min-height: 30px;
+}
