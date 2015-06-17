@@ -1,0 +1,29 @@
+{
+  "name": "starterkit",
+  "version": "0.0.1",
+  "authors": [
+    "Alex Gustafson <alex_gustafson@yahoo.de>"
+  ],
+  "description": "basic starter html5 starter kit using bower/sass/susy/libsass",
+  "main": "src/index.html",
+  "keywords": [
+    "sass",
+    "susy",
+    "bower",
+    "libsass",
+    "jade"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "src/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "susy": "~2.2.5",
+    "breakpoint-sass": "~2.6.1"
+  }
+}
