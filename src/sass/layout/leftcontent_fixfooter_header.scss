@@ -1,27 +1,39 @@
+@import "../../bower_components/susy/sass/susy";
+@import "../../bower_components/breakpoint-sass/stylesheets/breakpoint";
+
 .header {
   .header_content {
-    padding: 15px;
-    color: white;
+    padding: 10px;
   }
 }
 
 .main {
-  @include container(920px);
-  padding-top: 45px;
+  @include container();
+  padding-top: 10px;
 }
 
 .panel {
+  padding: 10px;
+
+  ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
   @include span(1 of 1);
   @include breakpoint(500px)
   {
     @include span(1 of 4);
   }
+}
 
+.content {
+  padding: 10px;
 }
 
 .footer {
   width: 100%;
-  background-color: #2b81af;
 }
 
 .fixedfooter {
@@ -29,5 +41,7 @@
   bottom: 0;
   left: 0;
   right: 0;
-  min-height: 30px;
+  .footer_content {
+    padding: 10px;
+  }
 }

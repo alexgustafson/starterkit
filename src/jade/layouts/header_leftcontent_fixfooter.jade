@@ -1,5 +1,9 @@
 extends ../base
 
+block append css
+    link(rel='stylesheet', href='css/leftcontent_fixfooter_header.css')
+
+
 block layout
 
     include ../components/header
@@ -7,7 +11,7 @@ block layout
     .main
         include ../components/panel
 
-        div.content
+        .content
             block content
 
     include ../components/fixfooter

@@ -1,17 +1,28 @@
 @import "../bower_components/normalize.css/normalize.css";
+@import "../bower_components/bourbon/app/assets/stylesheets/bourbon";
+@import "../bower_components/bitters/app/assets/stylesheets/base";
 @import "../bower_components/susy/sass/susy";
 @import "../bower_components/breakpoint-sass/stylesheets/breakpoint";
 @import "../bower_components/compass-mixins/lib/compass";
 
 @import "settings";
-@import "partials/header";
-@import "layout/leftcontent_fixfooter_header";
+
+
 
 body {
-  background-color: #abbbbc;
+  background-color: $body-background;
+  color: $font-color;
 }
 
-.container {
-  @include container(990px);
+.header {
+  background-color: $header-background;
 }
+
+.footer {
+  background-color: $footer-background;
+}
+
+
+
+
 
