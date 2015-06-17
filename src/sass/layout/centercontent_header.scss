@@ -1,0 +1,31 @@
+@import "../../bower_components/susy/sass/susy";
+@import "../../bower_components/breakpoint-sass/stylesheets/breakpoint";
+
+.header {
+  .header_content {
+  }
+}
+
+.panel {
+  ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    li {
+      display: inline-block;
+      margin-right: 15px;
+    }
+  }
+
+}
+
+.main {
+  @include container();
+}
+
+.content {
+}
+
+.footer {
+  width: 100%;
+}

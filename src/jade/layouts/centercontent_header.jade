@@ -1,0 +1,16 @@
+extends ../base
+
+block append css
+    link(rel='stylesheet', href='css/centercontent_header.css')
+block layout
+    .container
+        include ../components/header
+        include ../components/panel
+
+        .main
+
+            .content
+                .global-inner-pdding
+                    block content
+
+        include ../components/footer

@@ -1,7 +1,7 @@
 extends ../base
 
 block append css
-    link(rel='stylesheet', href='css/leftcontent_fixfooter_header.css')
+    link(rel='stylesheet', href='css/rightcontent_fixfooter_header.css')
 
 
 block layout
@@ -9,10 +9,11 @@ block layout
     include ../components/header
 
     .main
-        include ../components/panel
 
         .content
             .global-inner-pdding
                 block content
+
+        include ../components/panel
 
     include ../components/fixfooter
