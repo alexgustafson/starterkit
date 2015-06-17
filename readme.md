@@ -7,13 +7,13 @@ Menu PhpStorm
         -> Tools
             -> File Watchers
             
-                at the bottom of the panel click on the "Import" icon and select the
-                watchers.xml file located in the /utils folder of this project
-                
-                This will setup the following filewatchers:
-                    sass ( using libsass )
-                    jade
-                    coffeescript
+at the bottom of the panel click on the "Import" icon and select the
+watchers.xml file located in the /utils folder of this project
+
+This will setup the following filewatchers:
+    sass ( using libsass )
+    jade
+    coffeescript
                 
 Initialize the Bower Dependencies
 
