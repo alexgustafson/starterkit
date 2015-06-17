@@ -20,3 +20,14 @@ Initialize the Bower Dependencies
 Open the "Terminal" panel at the bottom of the PhpStorm window
 type "bower install". All the necessary bower components will be 
 loaded into the src/bower_components directory
+
+
+
+LiveEdit configuration
+
+Go to the Run->Edit Configurations panel
+Click the "+" icon and select "Javascript Debug" from the popup menu
+Give the new configuration a name like "home"
+Click the "..." icon to the right of the url field, select the index.html file from the file selector
+Ok, your Run/Debug configuration is set, close the panel
+Now click on the green debugger icon. Make changes to your index.jade file. Watch Chrome update the page!
