@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TaskOptions>
   <TaskOptions>
-    <option name="arguments" value="$FileName$ --pretty" />
+    <option name="arguments" value="$FileName$  --pretty" />
     <option name="checkSyntaxErrors" value="true" />
     <option name="description" value="Compiles .jade files into .html files" />
     <option name="exitCodeBehavior" value="ERROR" />
@@ -21,7 +21,7 @@
     <envs />
   </TaskOptions>
   <TaskOptions>
-    <option name="arguments" value="-m $FileName$ ../css/$FileNameWithoutExtension$.css" />
+    <option name="arguments" value="-m $FileName$ $ProjectFileDir$/src/css/$FileNameWithoutExtension$.css" />
     <option name="checkSyntaxErrors" value="true" />
     <option name="description" value="Compiles .scss files into .css files" />
     <option name="exitCodeBehavior" value="ERROR" />
@@ -35,7 +35,7 @@
     <option name="outputFromStdout" value="false" />
     <option name="passParentEnvs" value="true" />
     <option name="program" value="$ProjectFileDir$/utils/sassc" />
-    <option name="scopeName" value="Project Files" />
+    <option name="scopeName" value="sass files" />
     <option name="trackOnlyRoot" value="true" />
     <option name="workingDir" value="$FileDir$" />
     <envs />
