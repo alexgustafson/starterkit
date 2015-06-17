@@ -10,11 +10,10 @@ head
     link(rel='apple-touch-icon', href='apple-touch-icon.png')
     // Place favicon.ico in the root directory
     block css
-        link(rel='stylesheet', href='css/normalize.css')
         link(rel='stylesheet', href='css/main.css')
 
     block top_js
-        script(src='js/vendor/modernizr-2.8.3.min.js')
+        script(src='bower_components/modernizer/modernizr.js')
 
 body
     //if lt IE 8
@@ -29,10 +28,7 @@ body
         p Hello world! This is HTML5 Boilerplate.
 
     block bottom_js
-        script(src='https://ajax.googleapis.com/ajax/libs/jquery/{{JQUERY_VERSION}}/jquery.min.js')
-        script.
-            window.jQuery || document.write('<script src="js/vendor/jquery-{{JQUERY_VERSION}}.min.js"><\\/script>')
-        script(src='js/plugins.js')
+        script(src='bower_components/jquery/dist/jquery.min.js')
         script(src='js/main.js')
         // Google Analytics: change UA-XXXXX-X to be your site's ID.
         script.
