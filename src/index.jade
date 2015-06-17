@@ -1,12 +1,6 @@
 extends jade/layouts/header_leftcontent_fixfooter
 //extends jade/layouts/header_rightcontent_fixfooter
 //extends jade/layouts/centercontent_header
-include jade/mixins/accordion_tab
-
-block append css
-    link(rel='stylesheet', href='css/accordion_tab.css')
-block append bottom_js
-    script(src='js/components/accordion.js' type="text/javascript")
 
 
 block header_content
@@ -46,11 +40,6 @@ block content
             yoda aayla skywalker obi-wan grievous. Baba moff solo darth. Mara ahsoka wicket windu antilles calamari
             kashyyyk hoth.
 
-    +tabs({
-        "tab 1" : 'Gamorrean qui-gon endor c-3p0 moff greed grievous ewok sidious. Tusken raider c-3p0 solo mandalore skywalker mon mon.',
-        "tab2" : "Dooku c-3p0 watto jade solo. Kit darth bothan solo. Solo padmé amidala leia fett antilles kessel palpatine.",
-        "tab3" : "Dooku c-3p0 watto jade solo. Kit darth bothan solo. Solo padmé amidala leia fett antilles kessel palpatine.",
-    })
 
 
 block footer_content
