@@ -1,4 +1,12 @@
 extends jade/base
 
 block content
-    p This is the index.html
+
+    include jade/header
+
+    .container
+        div.content
+            h1 content
+
+    include jade/footer
+
